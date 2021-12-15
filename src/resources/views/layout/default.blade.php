@@ -9,7 +9,7 @@
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
-<body>
+<body onload="onPageLoad()">
   <header>
     @include('layout.header')
   </header>
